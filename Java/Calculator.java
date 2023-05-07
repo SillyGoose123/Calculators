@@ -31,7 +31,7 @@ public class Calculator {
                     System.out.println("No operator or not supported operator.");
                 }
             } catch (Exception e){
-                System.out.println("You typed shit." + e);
+                System.out.println("You typed shit.");
             }
             
           
