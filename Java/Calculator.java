@@ -10,6 +10,7 @@ public class Calculator {
 
         while(true){
             try {
+                System.out.print(">");
                 String in = scan.nextLine();
 
                 if(in.contains("exit")){

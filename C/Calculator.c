@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include <stdbool.h>
+#include <math.h>
 
 int main(){
 
@@ -25,21 +26,21 @@ int main(){
             scanf("%c", &operator);
             switch (operator){
                 case '+':
-                    printf("Write adder: ");
+                    printf("Write summand: ");
                     scanf("%d", &num2);
                     printf("The Soulution is: %d", num1 + num2);
                     t = false;
                     break;
                 
                 case '-':
-                    printf("Write substracter: ");
+                    printf("Write subtrahend: ");
                     scanf("%d", &num2);
                     printf("The Soulution is: %d", num1 - num2);
                     t = false;
                     break;
 
                 case '*':
-                    printf("Write multiplyer: ");
+                    printf("Write factor: ");
                     scanf("%d", &num2);
                     printf("The Soulution is: %d", num1 * num2);
                     t = false;
@@ -52,8 +53,15 @@ int main(){
                     t = false;
                     break;
 
+                case '%':
+                    printf("Write modulo: ");
+                    scanf("%d", &num2);
+                    printf("The Soulution is: %d", fmod(num1, num2));
+                    t = false;
+                    break;
+
                 default:
-                    printf("Type one of the operators: +, -, *,/ : ");
+                    printf("Type one of the operators: +, -, *,/, %% :");
                     break;
             }
         }
@@ -69,8 +77,10 @@ int main(){
             }
         }
     
-        if(answer == 2){
+        if(answer == 1){
             return 0;
+        } else {
+            printf("-----------------------\n");
         }
     }
 }

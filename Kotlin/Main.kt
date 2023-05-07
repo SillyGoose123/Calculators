@@ -6,10 +6,11 @@ fun main() {
     println("Hello from Calc in Kotlin!")
     println("Type \"exit\" to exit.")
     while (true) {
+        print(">")
         val input = readlnOrNull()
         try {
             if (input != null) {
-
+            
                 if(input.contains("exit")){
                     exitProcess(0)
                 }
