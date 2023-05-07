@@ -4,6 +4,8 @@
 
 int main(){
 
+    printf("Hello from Calc in C!");
+
     char operator;
 
     double num1;
