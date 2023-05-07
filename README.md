@@ -1,2 +1,2 @@
 # Calculators
-Many Calculators many Languages.
+Many Calculators. Many Languages.
