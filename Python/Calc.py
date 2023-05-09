@@ -45,5 +45,3 @@ while True:
             calc(line, "%")
         else:
             print("No operator or not supported operator.")
-
-
