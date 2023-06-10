@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class Calculator {
     public static void main(String[] args) {
         System.out.println("Welcome to Calc in Java!");
-        System.out.println("Type \"exit\" to exit.")
+        System.out.println("Type \"exit\" to exit.");
 
         Scanner scan = new Scanner(System.in);
 

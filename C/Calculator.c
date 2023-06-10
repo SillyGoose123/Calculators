@@ -4,7 +4,7 @@
 
 int main(){
 
-    printf("Hello from Calc in C!");
+    printf("Hello from Calc in C!\n");
 
     char operator;
 
