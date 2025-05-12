@@ -33,7 +33,6 @@ internal class Program
     static int Calc(string input)
     {
         string[] tokens = Tokenize(input);
-        foreach (var item in tokens) Console.WriteLine(item);
         tokens = Array.FindAll(tokens, token => !string.IsNullOrEmpty(token));
 
         tokens = ResolveHigherOperators(tokens);
